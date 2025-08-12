@@ -1,0 +1,88 @@
+    body {
+      background-image: url(4002687.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .zeel :hover {
+      width: 75px;
+      height: 75px;
+      margin-top: 15px;
+      border-radius: 16px;
+      background-color: rgb(153, 255, 170);
+      object-fit: cover;
+      transition-duration: 0.3s;
+    }
+
+    .zeel img {
+      width: 70px;
+      height: 70px;
+      margin-top: 15px;
+      border-radius: 16px;
+      background-color: black;
+      object-fit: cover;
+      transition-duration: 0.3s;
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+
+    .input-group, .save, .openbtn {
+      margin: 10px;
+     
+    }
+
+    input, select, button {
+      padding: 12px;
+      font-size: 25px;
+      border-radius: 16px;
+      width: 90%;
+      max-width: 400px;
+      border: 1px solid #000000;
+      background: transparent;
+      backdrop-filter: blur(67px);
+    }
+
+    button {
+      background: transparent;
+      backdrop-filter: blur(15px);
+      border: black 2px solid;
+      color: white;
+      cursor: pointer;
+       font-size: 25px;
+      transition-duration: 0.3s;
+    }
+
+    button:hover {
+      background-color: #43a047;
+      transition-duration: 0.3s;
+       font-size: 35px;
+    }
+
+    .one-line {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media screen and (min-width: 600px) {
+      .one-line {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .input-group {
+        width: 45%;
+      }
+    }

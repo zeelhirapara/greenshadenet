@@ -1,0 +1,78 @@
+body {
+      background-image: url(4040902.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .zeel :hover {
+      width: 75px;
+      height: 75px;
+      margin-top: 15px;
+      border-radius: 16px;
+      background-color: rgb(153, 255, 170);
+      object-fit: cover;
+      transition-duration: 0.3s;
+    }
+
+    .zeel img {
+      width: 70px;
+      height: 70px;
+      margin-top: 15px;
+      border-radius: 16px;
+      background-color: black;
+      object-fit: cover;
+      transition-duration: 0.3s;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      
+    }
+
+    button {
+      font-size: 20px;
+      padding: 20px;
+      border: none;
+      border-radius: 25px;
+      width: 96%; 
+      margin: 0 auto;
+      background-color: #4CAF50;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      border: black 2px solid;
+    }
+
+    button:hover {
+
+      width: 100%;
+      background: transparent;
+      backdrop-filter: blur(40px);
+      border: rgb(145, 235, 151) 5px solid;
+      transition-duration: 0.3s;
+    }
+
+    @media screen and (min-width: 600px) {
+      .button-container {
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      button {
+        font-size: 24px;
+        padding: 25px;
+      }
+    }
+
+  
